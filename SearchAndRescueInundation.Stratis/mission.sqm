@@ -1,0 +1,25 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class Camera
+	{
+		pos[]={4395.3623,260.7868,3819.6125};
+		dir[]={-0.69844306,-0.7156142,-0.010924529};
+		up[]={-0.71553159,0.69849426,-0.011191497};
+		aside[]={-0.015639737,-7.1158865e-008,0.99989766};
+	};
+};
+binarizationWanted=0;
+class AddonsMetaData
+{
+};
+randomSeed=449727;
+class ScenarioData
+{
+	author="TerminalHunter";
+};
