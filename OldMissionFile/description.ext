@@ -1,0 +1,25 @@
+#include "Zen_FrameworkFunctions\Zen_DialogSystem\Zen_Dialog.hpp"
+
+class CfgNotifications {
+    #include "Zen_FrameworkFunctions\Zen_TaskSystem\Zen_TaskNotifications.hpp"
+};
+
+//EVERY PART IF THIS IS REQUIRED TO MAEK ARSENALS WORK. DON'T FUCK IT UP AGAIN.
+class CfgFunctions{
+	class terminalFunctions{
+		class terminalArsenal{
+			class initArsenal{
+				preInit = 1;
+				file = "initArsenal.sqf";
+			};
+		};
+	};
+};
+
+respawnDelay=20;
+respawnOnStart=-1;
+joinUnassigned=0;
+disabledAI=1;
+
+briefing = 1;
+debriefing = 1;
